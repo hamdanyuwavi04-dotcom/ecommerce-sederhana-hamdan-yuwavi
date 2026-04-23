@@ -15,7 +15,19 @@
         color: white;
         padding: 15px;
         text-align: center;
+        position: relative;
     }
+    .logo-container {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+
     nav {
         display: flex;
         justify-content: center;
@@ -86,6 +98,9 @@
 </head>
 <body>
 <header>
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo HK FARM" class="logo">
+    </div>
     <h1>HK FARM</h1>
     <p>Penjualan Kambing, Domba & Sapi Berkualitas Premium dengan Harga terjangkau</p>
 </header>
@@ -172,4 +187,4 @@
 </script>
 
 </body>
-                  </html>
+</html>
