@@ -87,7 +87,7 @@
 <body>
 <header>
     <h1>HK FARM</h1>
-    <p>Penjualan Kambing, Domba & Sapi Berkualitas</p>
+    <p>Penjualan Kambing, Domba & Sapi Berkualitas Premium dengan Harga terjangkau</p>
 </header>
 <nav>
     <a onclick="showPage('home')">Home</a>
@@ -103,7 +103,7 @@
     <h2>Produk Kami</h2>
     <div class="products">
         <div class="card">
-            <img src="images/kambing1.jpg" alt="Kambing">
+            <img src="kambing image.jpg" alt="Kambing">
             <div class="card-body">
                 <h3>Kambing Premium</h3>
                 <p class="price">Rp 3.000.000</p>
@@ -111,7 +111,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="images/domba1.jpg" alt="Domba">
+            <img src="domba image.jpg" alt="Domba">
             <div class="card-body">
                 <h3>Domba Super</h3>
                 <p class="price">Rp 2.500.000</p>
@@ -119,7 +119,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="images/sapi1.jpg" alt="Sapi">
+            <img src="sapi image.jpg" alt="Sapi">
             <div class="card-body">
                 <h3>Sapi Berkualitas</h3>
                 <p class="price">Rp 15.000.000</p>
@@ -127,11 +127,11 @@
             </div>
         </div>
         <div class="card">
-            <img src="images/daging_kambing.jpg" alt="Daging">
+            <img src="daging_sapi.jpg" alt="Daging">
             <div class="card-body">
-                <h3>Daging Kambing Segar</h3>
+                <h3>Daging Sapi Segar</h3>
                 <p class="price">Rp 150.000/kg</p>
-                <button onclick="addToCart('Daging Kambing', 150000)">Beli</button>
+                <button onclick="addToCart('Daging Sapi', 150000)">Beli</button>
             </div>
         </div>
     </div>
@@ -143,8 +143,8 @@
 </div>
 <div class="container" id="contact" style="display:none;">
     <h2>Kontak Kami</h2>
-    <p>Email: hkfarm@email.com</p>
-    <p>WhatsApp: 0812-xxxx-xxxx</p>
+    <p>Email: hamdanyuwavi04@email.com</p>
+    <p>WhatsApp: 0858-6009-5139</p>
 </div>
 <footer>
     <p>© 2026 HK FARM - All Rights Reserved</p>
@@ -159,7 +159,6 @@
         document.getElementById('contact').style.display = 'none';
         document.getElementById(page).style.display = 'block';
     }
-
     function addToCart(name, price) {
         cart.push({name, price});
         total += price;
@@ -174,4 +173,3 @@
 
 </body>
                   </html>
-
